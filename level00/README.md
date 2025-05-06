@@ -19,9 +19,9 @@ level00@OverRide:~$ file level00
 level00: setuid setgid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x20352633f776024748e9f8a5ebab6686df488bcf, not stripped
 ```
 
-The file is owned by **level1** and has the **setuid** bit.
+The file is owned by **level01** and has the **setuid** bit.
 
-We use **GDB** to read the assembly code of the `level0` executable.
+We use **GDB** to read the assembly code of the `level00` executable.
 
 ```bash
 level00@OverRide:~$ gdb ./level00
